@@ -1,0 +1,47 @@
+{
+  "extName": {
+    "message": "Clean Feed – Hide Shorts & Reels"
+  },
+  "extDesc": {
+    "message": "Hide YouTube Shorts and the addictive parts of Instagram (feed, Explore, Reels). Every option is a toggle in the toolbar menu."
+  },
+  "browserActionTitle": {
+    "message": "Clean Feed"
+  },
+  "popupSubtitle": {
+    "message": "Choose what disappears."
+  },
+  "ytTitle": {
+    "message": "YouTube"
+  },
+  "ytDesc": {
+    "message": "Hides Shorts everywhere"
+  },
+  "igTitle": {
+    "message": "Instagram"
+  },
+  "igDesc": {
+    "message": "Master switch"
+  },
+  "homeTitle": {
+    "message": "Home page"
+  },
+  "homeDesc": {
+    "message": "Feed and suggestions hidden, stories kept"
+  },
+  "exploreTitle": {
+    "message": "Explore"
+  },
+  "exploreDesc": {
+    "message": "Explore page reduced to the search bar"
+  },
+  "reelsTitle": {
+    "message": "Reels"
+  },
+  "reelsDesc": {
+    "message": "Reels button and feed hidden, received reels kept"
+  },
+  "footer": {
+    "message": "Applied instantly to open tabs."
+  }
+}

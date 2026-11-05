@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clean Feed</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Clean Feed</h1>
+    <p data-i18n="popupSubtitle">Choisis ce qui disparaît.</p>
+  </header>
+
+  <section class="card" id="youtube">
+    <label class="row master">
+      <span class="text">
+        <strong data-i18n="ytTitle">YouTube</strong>
+        <small data-i18n="ytDesc">Masque les Shorts partout</small>
+      </span>
+      <input type="checkbox" class="switch" role="switch" data-key="ytEnabled">
+    </label>
+  </section>
+
+  <section class="card" id="instagram">
+    <label class="row master">
+      <span class="text">
+        <strong data-i18n="igTitle">Instagram</strong>
+        <small data-i18n="igDesc">Interrupteur général</small>
+      </span>
+      <input type="checkbox" class="switch" role="switch" data-key="igEnabled">
+    </label>
+    <div class="sub">
+      <label class="row">
+        <span class="text">
+          <strong data-i18n="homeTitle">Page d'accueil</strong>
+          <small data-i18n="homeDesc">Fil et suggestions masqués, stories gardées</small>
+        </span>
+        <input type="checkbox" class="switch" role="switch" data-key="igHome">
+      </label>
+      <label class="row">
+        <span class="text">
+          <strong data-i18n="exploreTitle">Explorer</strong>
+          <small data-i18n="exploreDesc">Page Explorer réduite à la recherche</small>
+        </span>
+        <input type="checkbox" class="switch" role="switch" data-key="igExplore">
+      </label>
+      <label class="row">
+        <span class="text">
+          <strong data-i18n="reelsTitle">Reels</strong>
+          <small data-i18n="reelsDesc">Bouton et fil Reels masqués, reels reçus gardés</small>
+        </span>
+        <input type="checkbox" class="switch" role="switch" data-key="igReels">
+      </label>
+    </div>
+  </section>
+
+  <footer data-i18n="footer">Appliqué tout de suite aux onglets ouverts.</footer>
+
+  <script src="../settings.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

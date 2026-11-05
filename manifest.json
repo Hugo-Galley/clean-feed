@@ -1,0 +1,62 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "version": "1.0.0",
+  "description": "__MSG_extDesc__",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "clean-feed@galleyhugo.com",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "permissions": [
+    "storage",
+    "*://*.instagram.com/*",
+    "*://*.youtube.com/*"
+  ],
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "browser_action": {
+    "default_title": "__MSG_browserActionTitle__",
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.instagram.com/*"
+      ],
+      "js": [
+        "settings.js",
+        "instagram.js"
+      ],
+      "css": [
+        "instagram.css"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "settings.js",
+        "youtube.js"
+      ],
+      "css": [
+        "youtube.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "homepage_url": "https://github.com/Hugo-Galley/clean-feed",
+  "author": "Hugo Galley",
+  "default_locale": "en"
+}

@@ -1,0 +1,52 @@
+/* Clean Feed — Instagram
+   Chaque bloc est activé par une classe posée sur <html> par instagram.js :
+   cf-reels, cf-home (uniquement sur l'accueil), cf-explore (uniquement sur /explore). */
+
+/* ---------- Reels : le bouton, et les reels de l'accueil / d'Explorer ----------
+   Jamais ailleurs : un reel reçu en message ou les reels d'un profil
+   restent visibles et ouvrables. */
+html.cf-reels a[href="/reels/"],
+html.cf-reels a[href="/reels"],
+html.cf-reels.cf-page-home article:has(a[href*="/reel/"]),
+html.cf-reels.cf-page-explore a[href*="/reel/"] {
+  display: none !important;
+}
+
+/* ---------- Accueil : éléments repliés sans casser la mise en page ----------
+   Pas de display:none (les colonnes perdraient leur largeur et Instagram
+   recentrerait les stories) : on replie à hauteur 0 en gardant la largeur. */
+html.cf-home main article,
+html.cf-home main [role="progressbar"],
+html.cf-home main svg[aria-label*="hargement"],
+html.cf-home main svg[aria-label*="oading"],
+html.cf-home main [data-visualcompletion="loading-state"],
+html.cf-home .cf-collapsed {
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border: 0 !important;
+}
+
+/* ---------- Explorer : uniquement la recherche, plus de spinner ---------- */
+html.cf-explore main div:has(a[href^="/p/"]):not(:has(input)),
+html.cf-explore main div:has(a[href*="/reel/"]):not(:has(input)),
+html.cf-explore main a[href^="/p/"],
+html.cf-explore main [role="progressbar"],
+html.cf-explore main svg[aria-label*="hargement"],
+html.cf-explore main svg[aria-label*="oading"],
+html.cf-explore main [data-visualcompletion="loading-state"] {
+  display: none !important;
+}
+
+/* Accueil : page masquée le temps que les stories soient centrées (évite le saut visuel) */
+html.cf-home:not(.cf-ready) main { visibility: hidden !important; }
+
+/* Centrage des stories : main est décalé de --cf-dx (mesuré par le script, mémorisé) */
+html.cf-home main { transform: translateX(var(--cf-dx, 0px)); }
+html.cf-home { overflow-x: hidden; }

@@ -1,0 +1,47 @@
+{
+  "extName": {
+    "message": "Clean Feed – Masque Shorts et Reels"
+  },
+  "extDesc": {
+    "message": "Masque les Shorts YouTube et les parties addictives d'Instagram (fil, Explorer, Reels). Chaque option se règle depuis le menu de la barre d'outils."
+  },
+  "browserActionTitle": {
+    "message": "Clean Feed"
+  },
+  "popupSubtitle": {
+    "message": "Choisis ce qui disparaît."
+  },
+  "ytTitle": {
+    "message": "YouTube"
+  },
+  "ytDesc": {
+    "message": "Masque les Shorts partout"
+  },
+  "igTitle": {
+    "message": "Instagram"
+  },
+  "igDesc": {
+    "message": "Interrupteur général"
+  },
+  "homeTitle": {
+    "message": "Page d'accueil"
+  },
+  "homeDesc": {
+    "message": "Fil et suggestions masqués, stories gardées"
+  },
+  "exploreTitle": {
+    "message": "Explorer"
+  },
+  "exploreDesc": {
+    "message": "Page Explorer réduite à la recherche"
+  },
+  "reelsTitle": {
+    "message": "Reels"
+  },
+  "reelsDesc": {
+    "message": "Bouton et fil Reels masqués, reels reçus gardés"
+  },
+  "footer": {
+    "message": "Appliqué tout de suite aux onglets ouverts."
+  }
+}

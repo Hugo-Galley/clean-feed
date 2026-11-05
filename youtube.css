@@ -1,0 +1,31 @@
+/* Clean Feed — YouTube
+   Tout est conditionné par html.cf-yt (posée par youtube.js quand l'option est active). */
+
+html.cf-yt ytd-reel-shelf-renderer,
+html.cf-yt ytd-rich-shelf-renderer[is-shorts],
+html.cf-yt ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+html.cf-yt ytd-rich-section-renderer:has(a[href^="/shorts/"]),
+html.cf-yt grid-shelf-view-model:has(a[href^="/shorts/"]),
+
+/* Vidéos individuelles qui pointent vers un Short */
+html.cf-yt ytd-rich-item-renderer:has(a[href^="/shorts/"]),
+html.cf-yt ytd-video-renderer:has(a[href^="/shorts/"]),
+html.cf-yt ytd-grid-video-renderer:has(a[href^="/shorts/"]),
+html.cf-yt ytd-compact-video-renderer:has(a[href^="/shorts/"]),
+html.cf-yt yt-lockup-view-model:has(a[href^="/shorts/"]),
+
+/* Menu latéral et onglets de chaîne */
+html.cf-yt ytd-guide-entry-renderer:has(a[title="Shorts"]),
+html.cf-yt ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+html.cf-yt yt-tab-shape[tab-title="Shorts"],
+
+/* Version mobile (m.youtube.com) */
+html.cf-yt ytm-reel-shelf-renderer,
+html.cf-yt ytm-shorts-lockup-view-model,
+html.cf-yt ytm-shorts-lockup-view-model-v2,
+html.cf-yt ytm-pivot-bar-item-renderer:has(.pivot-shorts),
+
+/* Repérés par le texte "Shorts" (youtube.js) */
+html.cf-yt .cf-yt-hidden {
+  display: none !important;
+}
