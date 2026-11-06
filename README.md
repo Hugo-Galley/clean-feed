@@ -27,11 +27,27 @@ places and direct messages are never touched: a reel sent to you in a message op
 
 Everything is on by default and each toggle takes effect immediately on open tabs.
 
-## Screenshot
+## Screenshots
 
-<p align="center"><img src="docs/menu-en.png" alt="Clean Feed toolbar menu" width="520"></p>
+### YouTube: no more Shorts
 
-One toolbar menu, one toggle per feature. The interface is available in English and French.
+<p align="center"><img src="docs/screenshots/02-youtube-shorts.png" alt="YouTube before and after Clean Feed" width="820"></p>
+
+Shelves, thumbnails, the Shorts tab and the menu entry are gone.
+
+### Instagram: a home that ends
+
+<p align="center"><img src="docs/screenshots/03-instagram-home.png" alt="Instagram home before and after Clean Feed" width="820"></p>
+
+The feed and suggestions are hidden, stories stay.
+
+### Instagram: Explore and Reels
+
+<p align="center"><img src="docs/screenshots/04-instagram-explore-reels.png" alt="Instagram Explore before and after Clean Feed" width="820"></p>
+
+Explore is reduced to the search bar and the Reels button is hidden.
+
+*Screenshots use illustrated placeholder content, not real accounts or videos.*
 
 ## Privacy
 
