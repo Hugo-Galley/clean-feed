@@ -1,23 +1,13 @@
 <div align="center">
 
-<img src="docs/logo.png" width="96" alt="Clean Feed logo">
-
-# Clean Feed
-
-**Hide YouTube Shorts and the addictive parts of Instagram. Keep everything else.**
+<img src="docs/banner.png" alt="Clean Feed – hide YouTube Shorts and the addictive parts of Instagram">
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-4f5bd5.svg)](LICENSE)
 ![Firefox](https://img.shields.io/badge/Firefox%20%2F%20Zen-142%2B-orange)
 ![Manifest](https://img.shields.io/badge/manifest-v2-blue)
 ![No tracking](https://img.shields.io/badge/data%20collected-none-brightgreen)
 
-<img src="docs/menu-en.png" alt="Clean Feed menu (English)" width="48%"> <img src="docs/menu-fr.png" alt="Menu de Clean Feed (français)" width="48%">
-
-*One toolbar menu, one toggle per feature. English and French.*
-
 </div>
-
----
 
 **Clean Feed** is a Firefox / Zen extension that removes the endless-scroll parts of YouTube and Instagram,
 while keeping everything you actually use them for.
@@ -36,6 +26,12 @@ The cleanup only applies to the Instagram **home** and **Explore** pages. Profil
 places and direct messages are never touched: a reel sent to you in a message opens normally.
 
 Everything is on by default and each toggle takes effect immediately on open tabs.
+
+## Screenshot
+
+<p align="center"><img src="docs/menu-en.png" alt="Clean Feed toolbar menu" width="520"></p>
+
+One toolbar menu, one toggle per feature. The interface is available in English and French.
 
 ## Privacy
 
