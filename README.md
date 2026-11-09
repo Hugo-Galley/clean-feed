@@ -2,6 +2,9 @@
 
 <img src="docs/banner.png" alt="Clean Feed – hide YouTube Shorts and the addictive parts of Instagram">
 
+### [➜ Install from Firefox Add-ons](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/)
+
+[![Get the add-on](https://img.shields.io/badge/Firefox-Get%20the%20add--on-ff7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-4f5bd5.svg)](LICENSE)
 ![Firefox](https://img.shields.io/badge/Firefox%20%2F%20Zen-142%2B-orange)
 ![Manifest](https://img.shields.io/badge/manifest-v2-blue)
@@ -11,6 +14,10 @@
 
 **Clean Feed** is a Firefox / Zen extension that removes the endless-scroll parts of YouTube and Instagram,
 while keeping everything you actually use them for.
+
+## Install
+
+Available on [addons.mozilla.org](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/) for Firefox and Zen (Firefox 142 or newer). Click **Add to Firefox**, nothing else to configure.
 
 ## What it does
 
