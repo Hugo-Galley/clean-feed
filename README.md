@@ -69,6 +69,10 @@ In Firefox, Manifest V3 treats site access as an optional permission that the us
 and it is lost on temporary installs. Manifest V2 grants the access at install time so the extension
 works right away. Firefox still supports Manifest V2.
 
+## Chrome / Edge / Brave
+
+The same code builds a Chrome-compatible package (Manifest V3, PNG icons): `./scripts/build.sh` writes `dist/firefox-<version>.zip` and `dist/chrome-<version>.zip`. To try it, open `chrome://extensions`, enable Developer mode and load the unzipped `dist/chrome` folder.
+
 ## Develop
 
 ```bash
