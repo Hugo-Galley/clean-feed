@@ -2,10 +2,9 @@
 
 <img src="docs/banner.png" alt="Clean Feed – hide YouTube Shorts and the addictive parts of Instagram">
 
-### [➜ Install from Firefox Add-ons](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/) · [➜ Install from Chrome Web Store](https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf)
+<a href="https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/"><img src="https://img.shields.io/badge/Firefox-Add%20to%20Firefox-ff7139?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Get Clean Feed for Firefox"></a>
+<a href="https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf"><img src="https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4285f4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Get Clean Feed for Chrome"></a>
 
-[![Get the add-on](https://img.shields.io/badge/Firefox-Get%20the%20add--on-ff7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/)
-[![Get the extension](https://img.shields.io/badge/Chrome-Get%20the%20extension-4285f4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf)
 [![License: MIT](https://img.shields.io/badge/license-MIT-4f5bd5.svg)](LICENSE)
 ![Firefox](https://img.shields.io/badge/Firefox%20%2F%20Zen-142%2B-orange)
 ![Manifest](https://img.shields.io/badge/manifest-v2-blue)
