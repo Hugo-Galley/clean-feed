@@ -6,13 +6,14 @@
 <a href="https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf"><img src="https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4285f4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Get Clean Feed for Chrome"></a>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-4f5bd5.svg)](LICENSE)
-![Firefox](https://img.shields.io/badge/Firefox%20%2F%20Zen-142%2B-orange)
-![Manifest](https://img.shields.io/badge/manifest-v2-blue)
+![Firefox](https://img.shields.io/badge/Firefox%20%2F%20Zen-142%2B-orange?logo=firefox-browser&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome%20%2F%20Edge%20%2F%20Brave-supported-4285f4?logo=googlechrome&logoColor=white)
+![Manifest](https://img.shields.io/badge/manifest-v2%20(Firefox)%20%7C%20v3%20(Chrome)-blue)
 ![No tracking](https://img.shields.io/badge/data%20collected-none-brightgreen)
 
 </div>
 
-**Clean Feed** is a Firefox / Zen extension that removes the endless-scroll parts of YouTube and Instagram,
+**Clean Feed** is a Firefox / Zen / Chrome extension that removes the endless-scroll parts of YouTube and Instagram,
 while keeping everything you actually use them for.
 
 ## Install
