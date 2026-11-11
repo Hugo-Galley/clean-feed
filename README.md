@@ -2,9 +2,10 @@
 
 <img src="docs/banner.png" alt="Clean Feed – hide YouTube Shorts and the addictive parts of Instagram">
 
-### [➜ Install from Firefox Add-ons](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/)
+### [➜ Install from Firefox Add-ons](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/) · [➜ Install from Chrome Web Store](https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf)
 
 [![Get the add-on](https://img.shields.io/badge/Firefox-Get%20the%20add--on-ff7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/)
+[![Get the extension](https://img.shields.io/badge/Chrome-Get%20the%20extension-4285f4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf)
 [![License: MIT](https://img.shields.io/badge/license-MIT-4f5bd5.svg)](LICENSE)
 ![Firefox](https://img.shields.io/badge/Firefox%20%2F%20Zen-142%2B-orange)
 ![Manifest](https://img.shields.io/badge/manifest-v2-blue)
@@ -18,6 +19,8 @@ while keeping everything you actually use them for.
 ## Install
 
 Available on [addons.mozilla.org](https://addons.mozilla.org/fr/firefox/addon/clean-feed-hide-shorts-reels/) for Firefox and Zen (Firefox 142 or newer). Click **Add to Firefox**, nothing else to configure.
+
+Also available on the [Chrome Web Store](https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf) for Chrome, Edge and Brave.
 
 ## What it does
 
@@ -71,7 +74,7 @@ works right away. Firefox still supports Manifest V2.
 
 ## Chrome / Edge / Brave
 
-The same code builds a Chrome-compatible package (Manifest V3, PNG icons): `./scripts/build.sh` writes `dist/firefox-<version>.zip` and `dist/chrome-<version>.zip`. To try it, open `chrome://extensions`, enable Developer mode and load the unzipped `dist/chrome` folder.
+Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/clean-feed-%E2%80%93-hide-shorts/inhjhkkbaiodhbecdkempfnjkhnpdllf). The same code builds a Chrome-compatible package (Manifest V3, PNG icons): `./scripts/build.sh` writes `dist/firefox-<version>.zip` and `dist/chrome-<version>.zip`. To try it, open `chrome://extensions`, enable Developer mode and load the unzipped `dist/chrome` folder.
 
 ## Develop
 
